@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90482B022435DED600703200 /* GPUImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482B002435DED600703200 /* GPUImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90482B0E2435DF1300703200 /* lookup_soft_elegance_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90482B092435DF1300703200 /* lookup_soft_elegance_2.png */; };
 		90482B0F2435DF1300703200 /* lookup_soft_elegance_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90482B0A2435DF1300703200 /* lookup_soft_elegance_1.png */; };
 		90482B102435DF1300703200 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = 90482B0B2435DF1300703200 /* lookup.png */; };
@@ -304,7 +303,7 @@
 		90482DAE2435DF2500703200 /* GPUImageSaturationBlendFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482C542435DF2300703200 /* GPUImageSaturationBlendFilter.h */; };
 		90482DAF2435DF2500703200 /* GPUImageLuminanceRangeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482C552435DF2300703200 /* GPUImageLuminanceRangeFilter.m */; };
 		90482DB02435DF2500703200 /* GPUImageChromaKeyBlendFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482C562435DF2300703200 /* GPUImageChromaKeyBlendFilter.m */; };
-		90482DB12435DF2500703200 /* GPUImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482C572435DF2300703200 /* GPUImage.h */; };
+		90482DB12435DF2500703200 /* GPUImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482C572435DF2300703200 /* GPUImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90482DB22435DF2500703200 /* GPUImageFalseColorFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482C582435DF2300703200 /* GPUImageFalseColorFilter.m */; };
 		90482DB32435DF2500703200 /* GPUImagePolkaDotFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482C592435DF2300703200 /* GPUImagePolkaDotFilter.m */; };
 		90482DB42435DF2500703200 /* GPUImageRGBFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482C5A2435DF2300703200 /* GPUImageRGBFilter.h */; };
@@ -347,7 +346,6 @@
 
 /* Begin PBXFileReference section */
 		90482AFD2435DED600703200 /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90482B002435DED600703200 /* GPUImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImage.h; sourceTree = "<group>"; };
 		90482B012435DED600703200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90482B092435DF1300703200 /* lookup_soft_elegance_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_2.png; sourceTree = "<group>"; };
 		90482B0A2435DF1300703200 /* lookup_soft_elegance_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_1.png; sourceTree = "<group>"; };
@@ -719,7 +717,6 @@
 				90482DCE2435DFCA00703200 /* iOS */,
 				90482B132435DF2100703200 /* Source */,
 				90482B082435DF1300703200 /* Resources */,
-				90482B002435DED600703200 /* GPUImage.h */,
 				90482B012435DED600703200 /* Info.plist */,
 			);
 			path = GPUImage;
@@ -1090,6 +1087,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90482DB12435DF2500703200 /* GPUImage.h in Headers */,
 				90482C9F2435DF2400703200 /* GPUImageGlassSphereFilter.h in Headers */,
 				90482D0A2435DF2400703200 /* GPUImageLuminanceRangeFilter.h in Headers */,
 				90482D912435DF2400703200 /* GPUImageErosionFilter.h in Headers */,
@@ -1117,7 +1115,6 @@
 				90482DC12435DF2500703200 /* GPUImageAverageLuminanceThresholdFilter.h in Headers */,
 				90482D712435DF2400703200 /* GPUImageMissEtikateFilter.h in Headers */,
 				90482DB62435DF2500703200 /* GPUImageSourceOverBlendFilter.h in Headers */,
-				90482B022435DED600703200 /* GPUImage.h in Headers */,
 				90482D6D2435DF2400703200 /* GPUImageSketchFilter.h in Headers */,
 				90482D832435DF2400703200 /* GPUImageSepiaFilter.h in Headers */,
 				90482DDC2435DFD200703200 /* GPUImage-Prefix.pch in Headers */,
@@ -1158,7 +1155,6 @@
 				90482C892435DF2400703200 /* GPUImageCrosshairGenerator.h in Headers */,
 				90482CD52435DF2400703200 /* GPUImageNormalBlendFilter.h in Headers */,
 				90482D872435DF2400703200 /* GPUImageSphereRefractionFilter.h in Headers */,
-				90482DB12435DF2500703200 /* GPUImage.h in Headers */,
 				90482CDB2435DF2400703200 /* GPUImageAddBlendFilter.h in Headers */,
 				90482CE82435DF2400703200 /* GPUImageTextureOutput.h in Headers */,
 				90482D972435DF2400703200 /* GPUImagePolarPixellateFilter.h in Headers */,
